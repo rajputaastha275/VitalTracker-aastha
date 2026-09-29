@@ -29,7 +29,7 @@ const NavBar = ({ showIcons = false }) => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/ai/analyze",
+        "https://vitaltracker3.onrender.com/api/ai/analyze",
         {
           userId: userId
         }

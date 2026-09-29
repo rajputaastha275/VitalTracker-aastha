@@ -1,0 +1,17 @@
+.nav-tabs .nav-link {
+  color: grey;
+}
+
+.nav-tabs .nav-link.active {
+  color: black;
+  font-weight: 500;
+}
+
+.card1{
+  transition: all 0.3s ease;
+}
+
+.card1:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
